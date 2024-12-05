@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  books-api:
+    build: ./books-api
+    ports:
+    - "9001:9001"
+
+  users-api:
+    build: ./users-api
+    ports:
+    - "9000:9000"
+
+    
